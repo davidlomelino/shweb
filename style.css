@@ -19,13 +19,15 @@ main {
 header {
   margin-bottom: 100px;
 
+
 }
 
 h1 {
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  margin: 9 0 8px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  margin: 8 0 8px;
+
 }
 
 .h2 {
