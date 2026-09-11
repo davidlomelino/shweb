@@ -1,0 +1,82 @@
+html {
+    background: #e8e8d6;
+    color: #0a4a9e;
+    /* color: #0E4785; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 64px 24px 120px;
+}
+
+
+h1 {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    margin: 8px 0 8px;
+    font-weight: 400;
+}
+
+a {
+    color: #155aa4;
+    text-decoration: underline;
+    margin-right: 5px;
+    font-size: 9px;
+}
+
+a:hover {
+    color: rgb(196, 71, 144)
+}
+
+.credits {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 590px;
+    height: auto;
+}
+
+.lyric-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: left;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#reputation,
+#basketball {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    white-space: pre-line;
+    width: 550px;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    main {
+        padding: 40px 18px 90px;
+    }
+
+    header {
+        margin-bottom: 80px;
+    }
+
+    .entry {
+        margin-bottom: 100px;
+    }
+}

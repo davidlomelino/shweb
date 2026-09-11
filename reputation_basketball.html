@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>summer heart</title>
+    <link rel="stylesheet" href="reputation_style.css">
+</head>
+
+<body>
+    <main>
+
+        <h1>REPUTATION/BASKETBALL</h1>
+
+        <div class="credits">
+            CREDITS<br>
+
+            Written and produced by Viktor Jansåker & David Lomelino<br>
+            Recorded at several different locations in Malmö and Stockholm<br>
+            Mastered at Svenska Grammofonstudion by Hans Olsson<br>
+            Thanks to Joakim Buddee and Ivan Kinell for helping out with recording the vocals
+        </div>
+
+        <div>
+            <img src="images/reputation/d1.jpeg">
+            <img src="images/reputation/d2.jpeg">
+            <img src="images/reputation/d7.jpeg">
+            <img src="images/reputation/d3.jpeg">
+            <img src="images/reputation/vd2.jpeg">
+            <img src="images/reputation/v2.jpeg">
+            <img src="images/reputation/d4.jpeg">
+            <img src="images/reputation/d5.jpeg">
+            <img src="images/reputation/vd1.jpeg">
+            <img src="images/reputation/d8.jpeg">
+            <img src="images/reputation/d2.jpeg">
+            <img src="images/reputation/v1.jpeg">
+            <img src="images/reputation/d10.jpeg">
+            <img src="images/reputation/d11.jpeg">
+
+        </div>
+
+        <div class="lyric-box">
+            <div id="reputation">
+            </div>
+            <script>
+                fetch('/documents/lyrics/reputation.txt')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('File on vacation');
+                        }
+                        return response.text();
+                    })
+                    .then(data => {
+                        document.getElementById('reputation').textContent = data;
+                    })
+            </script>
+
+            <div id="basketball">
+            </div>
+            <script>
+                fetch('/documents/lyrics/basketball.txt')
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('File on vacation');
+                        }
+                        return response.text();
+                    })
+                    .then(data => {
+                        document.getElementById('basketball').textContent = data;
+                    })
+            </script>
+        </div>
+
+
+    </main>
+</body>
