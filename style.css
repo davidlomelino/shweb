@@ -61,6 +61,10 @@ img {
   margin-bottom: 14px;
 }
 
+.bilder {
+  margin: 2px 2px 2px;
+}
+
 .undertext {
   font-size: 10px;
   letter-spacing: 0.03em;
