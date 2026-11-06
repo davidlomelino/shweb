@@ -1,6 +1,10 @@
 html {
   background: #f5f5f3;
-  color: #155aa4;
+  background-image: url("/images/sh/bg2.jpeg");
+  background-size: cover;
+  background-position: 0;
+
+  color: #a4151c;
   /* color: #0E4785; */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -22,73 +26,28 @@ header {
 
 h1 {
   font-size: 20px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   margin: 8px 0 8px;
   font-weight: 400;
 
 }
-
 
 p {
   margin: 0 0 8px;
   line-height: 1.4;
 }
 
-header a {
-  color: #155aa4;
-  text-decoration: underline;
-  margin-right: 5px;
-  font-size: 10px;
-
-}
-
 a {
-  color: #155aa4;
-  text-decoration: underline;
+  color: #a4151c;
+  text-decoration: none;
   margin-right: 5px;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 a:hover {
-  color: rgb(196, 71, 144)
+  color: rgb(107, 71, 73);
 }
 
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 14px;
-}
-
-.bilder {
-  margin: 2px 2px 2px;
-}
-
-.undertext {
-  font-size: 10px;
-  letter-spacing: 0.03em;
-}
-
-.entry {
-  margin-bottom: 80px;
-  font-size: 12px;
-  letter-spacing: 0.05em;
-}
-
-.meta {
-  font-size: 11px;
-  letter-spacing: 0.07em;
-  margin-top: 13px;
-  text-transform: uppercase;
-}
-
-.next {
-  font-size: 11px;
-  letter-spacing: 0.05em;
-  margin-top: 20px;
-  text-transform: lowercase;
-}
 
 
 @media (max-width: 600px) {
